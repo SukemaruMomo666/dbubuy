@@ -34,7 +34,7 @@
 <?php
   // Gunakan 'require' jika navbar wajib ada. 
   // Jika file navbar.php tidak ditemukan, script akan berhenti (fatal error).
-  require 'navbar.php'; 
+  require 'partials/navbar.php'; 
 ?>
 
   <!--====== NAVBAR NINE PART ENDS ======-->
