@@ -47,6 +47,8 @@
     scroll-behavior: smooth;
   }
 }
+
+
 body {
   margin: 0;
   font-family: var(--bs-font-sans-serif);
@@ -9423,3 +9425,30 @@ fieldset:disabled .btn {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+
+
+/* Styling untuk tombol Login */
+.navbar-btn.login-home .login-btn {
+  display: inline-block;
+  padding: 8px 22px; /* Atur ukuran tombol */
+  
+  /* Gaya tombol outline */
+  background-color: transparent;
+  border: 2px solid #ffffff; /* Garis tepi putih */
+  color: #ffffff; /* Teks warna putih */
+  
+  /* Lain-lain */
+  border-radius: 30px; /* Membuat sudut membulat (pil) */
+  text-decoration: none; /* Hilangkan underline */
+  font-weight: 500;
+  font-size: 15px;
+  
+  /* Efek transisi saat hover */
+  transition: all 0.3s ease-out;
+}
+
+/* Efek saat kursor mouse di atas tombol */
+.navbar-btn.login-home .login-btn:hover {
+  background-color: #ffffff; /* Latar belakang jadi putih */
+  color: #333333; /* Teks jadi gelap agar terbaca */
+}
