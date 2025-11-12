@@ -32,7 +32,7 @@
           </div>
 
 <div class="navbar-btn login-home">
-  <a class="login-btn" href="login.html">
+  <a class="login-btn" href="/pages/login.php">
     <i class="bi bi-box-arrow-in-right"></i> Login
   </a>
 </div>
